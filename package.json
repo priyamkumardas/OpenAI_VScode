@@ -3,12 +3,17 @@
   "displayName": "click-code",
   "description": "",
   "version": "0.0.1",
+  "publisher":"priyam",
   "engines": {
     "vscode": "^1.86.0"
   },
   "categories": [
     "Other"
   ],
+  "files": [
+    "out",
+    "images/**/*"
+],
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {

@@ -1,65 +1,46 @@
-# click-code README
+# VS Code Code Explanation Extension
 
-This is the README for your extension "click-code". After writing up a brief description, we recommend including the following sections.
+![Image Alt Text](./images/image.png)
+
+This is a Visual Studio Code extension that fetches code explanations from the OpenAI API. It helps developers understand complex code snippets by providing explanations in natural language.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Code Explanation:** Get detailed explanations for code snippets.
+- **Language Support:** Supports multiple programming languages.
+- **Customization:** Configure the extension to suit your needs.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Open Visual Studio Code.
+2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X`.
+3. Search for "Click Code".
+4. Click on the Install button.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage
 
-## Requirements
+1. Select a code snippet in your editor.
+2. Right-click on the selected code.
+3. Type "Explain Code"
+4. The extension will fetch the explanation from the OpenAI API and display it in a popup.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Configuration
 
-## Extension Settings
+You can configure the extension by pressing `Ctrl+Shift+P` and typing command "Click-Code: Set Api Key" in Visual Studio Code. Here are some available configurations:
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+- `api_key`: Your OpenAI API key.
+- `default_language`: The default programming language for code snippets.
+- `max_explanation_length`: The maximum length of the explanation to display.
 
-For example:
+## Repository
 
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+The source code for this extension is available on [GitHub](https://github.com/priyamkumardas/OpenAI_VScode.git).
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- This extension may not provide accurate explanations for all code snippets.
+- There may be limitations on the number of API requests allowed per day.
 
-## Release Notes
+## Contributing
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Contributions are welcome! Please fork the repository and submit a pull request.
