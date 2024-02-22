@@ -1,6 +1,6 @@
 # VS Code Code Explanation Extension
 
-![Image Alt Text](./images/image.png)
+![Image Alt Text](https://raw.githubusercontent.com/priyamkumardas/OpenAI_VScode/master/images/image.png)
 
 This is a Visual Studio Code extension that fetches code explanations from the OpenAI API. It helps developers understand complex code snippets by providing explanations in natural language.
 
