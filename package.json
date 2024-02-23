@@ -2,11 +2,12 @@
   "name": "click-code",
   "displayName": "click-code",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "publisher":"priyam",
   "engines": {
     "vscode": "^1.86.0"
   },
+  "icon": "images/image.png",
   "categories": [
     "Other"
   ],
