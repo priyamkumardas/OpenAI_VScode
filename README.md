@@ -20,9 +20,12 @@ This is a Visual Studio Code extension that fetches code explanations from the O
 ## Usage
 
 1. Select a code snippet in your editor.
-2. Right-click on the selected code.
-3. Type "Explain Code"
-4. The extension will fetch the explanation from the OpenAI API and display it in a popup.
+2. Right-click on the selected code & copy it.
+3. Press `Ctrl+shift+p` & type `click-code` as the command and press enter.
+4. A new empty temp txt file will open.
+5. Type "Explain Code" in that file and paste the copied code.
+6. An alert is generated seeking confirmation, press confirm.
+7. The extension will fetch the explanation from the OpenAI API and display it in a new view in vscode.
 
 ## Configuration
 
